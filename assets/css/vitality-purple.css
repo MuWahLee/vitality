@@ -1166,3 +1166,8 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 .daylight_logo {
     height: 53px;
 }
+
+#clients .company img{
+  max-height:35px;
+  margin: 10px 25px; 
+}
