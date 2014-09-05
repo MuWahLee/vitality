@@ -1172,3 +1172,13 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   max-height:35px;
   margin: 10px 25px; 
 }
+
+.project-details img{
+  max-height:45px;
+  margin: 10px 25px; 
+}
+
+.portfolio-logo {
+  max-height: 50%;
+  margin: 10px 25px 10px 250px; 
+}
