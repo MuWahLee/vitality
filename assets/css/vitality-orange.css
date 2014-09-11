@@ -517,6 +517,7 @@ aside.cta-quote span.quote {
 
 .about-carousel .item {
     padding: 15px;
+    min-height: 390px;
 }
 
 .about-carousel .item .caption {
@@ -525,8 +526,9 @@ aside.cta-quote span.quote {
     left: 50%;
     width: 100%;
     margin: auto;
+    margin-top: 110px;
     padding: 15px;
-    color: rgba(255,255,255,.7);
+    /*color: rgba(255,255,255,.7);*/
     -webkit-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
@@ -550,12 +552,12 @@ aside.cta-quote span.quote {
 }
 
 .about-carousel .item .caption ul.social li a {
-    color: rgba(255,255,255,.7);
+    color: inherit;
 }
 
 .about-carousel .item .caption ul.social li a:hover,
 .about-carousel .item .caption ul.social li a:focus {
-    color: #fff;
+    color: #f26f21;
 }
 
 .about-carousel .owl-controls {
