@@ -623,6 +623,7 @@ aside.cta-quote span.quote {
 
 .services .media .media-body h3 {
     margin-bottom: 15px;
+    min-height: 78px;
 }
 
 .services .media .media-body ul {
@@ -675,7 +676,7 @@ aside.cta-quote span.quote {
     text-transform: uppercase;
     font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 300;
     line-height: 40px;
 }
 
@@ -729,6 +730,7 @@ aside.cta-quote span.quote {
 
     .portfolio-carousel .item .portfolio-image {
         margin-top: 0;
+        padding-top: 14px;
     }
 
     .portfolio-carousel .item .project-details {
@@ -911,7 +913,7 @@ aside.cta-quote span.quote {
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
-    padding-bottom: .5em;
+    padding-bottom: .2em;
     border-bottom: 1px solid #e1e1e1;
 }
 
@@ -923,7 +925,7 @@ aside.cta-quote span.quote {
     padding-left: 0;
     border: 0;
     border-radius: 0;
-    font-size: 1.5em;
+    font-size: 1.1em;
     background: 0 0;
     box-shadow: none!important;
     resize: none;
@@ -1188,7 +1190,7 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 }
 
 .portfolio-logo {
-  max-height: 50%;
+  max-height: 40%;
   margin: 10px 25px 10px 250px; 
 }
 
