@@ -42,7 +42,7 @@ body {
 }
 
 a {
-    color: #ef4035;
+    color: #004588;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
@@ -104,7 +104,7 @@ hr.right {
 }
 
 hr.colored {
-    border-color: #ef4035;
+    border-color: #004588;
 }
 
 @media(min-width:768px) {
@@ -123,7 +123,7 @@ hr.colored {
 }
 
 .text-primary {
-    color: #ef4035;
+    color: #004588;
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -133,12 +133,12 @@ hr.colored {
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
     border-radius: 0;
-    color: #ef4035;
+    color: #004588;
     background-color: #fff;
 }
 
 .navbar-default {
-    background-color: #ef4035;
+    background-color: #004588;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -156,7 +156,7 @@ hr.colored {
 }
 
 .navbar-inverse {
-    background-color: #222;
+    background-color: #004588;
 }
 
 .navbar-default,
@@ -481,7 +481,7 @@ aside.cta-quote span.quote {
     font-size: 30px!important;
     line-height: 50px;
     color: #fff!important;
-    background-color: #ef4035!important;
+    background-color: #004588!important;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
@@ -563,7 +563,7 @@ aside.cta-quote span.quote {
 .about-carousel .item .caption a:focus, 
 .about-carousel .item .caption ul.social li a:hover,
 .about-carousel .item .caption ul.social li a:focus {
-    color: #ef4035;
+    color: #004588;
 }
 
 
@@ -584,7 +584,7 @@ aside.cta-quote span.quote {
     font-size: 30px!important;
     line-height: 50px;
     color: #fff!important;
-    background-color: #ef4035!important;
+    background-color: #004588!important;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
@@ -703,7 +703,7 @@ aside.cta-quote span.quote {
     font-size: 30px!important;
     line-height: 70px;
     color: #fff!important;
-    background-color: #ef4035!important;
+    background-color: #004588!important;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
@@ -959,7 +959,7 @@ aside.cta-quote span.quote {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #ef4035;
+    color: #004588;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -1018,7 +1018,7 @@ footer.footer .copyright p.small {
 .btn-outline-light:hover,
 .btn-outline-light:focus {
     outline: 0;
-    color: #ef4035;
+    color: #004588;
     background: #fff;
 }
 
@@ -1033,10 +1033,10 @@ footer.footer .copyright p.small {
 
 .btn-outline-dark:hover,
 .btn-outline-dark:focus {
-    border-color: #ef4035;
+    border-color: #004588;
     outline: 0;
     color: #fff;
-    background: #ef4035;
+    background: #004588;
 }
 
 .btn {
@@ -1067,7 +1067,7 @@ footer.footer .copyright p.small {
 
 .btn-full-width:hover {
     color: #fff;
-    background-color: #ef4035;
+    background-color: #004588;
 }
 
 .btn-full-width:focus {
@@ -1179,8 +1179,12 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
     height: 53px;
 }
 
+#clients .company {
+    padding-top: 25px;
+}
+
 #clients .company img{
-  max-height:35px;
+  max-height:55px;
   margin: 10px 25px; 
 }
 
