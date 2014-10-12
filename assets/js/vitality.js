@@ -47,7 +47,11 @@ $(".portfolio-carousel").owlCarousel({
     mouseDrag: false,
     touchDrag: false,
     transitionStyle: "fadeUp",
-    autoPlay: true,
+    autoPlay: 20000,
+    slideSped: 300,
+    paginationSpeed: 300,
+    rewindSpeed: 100,
+
 });
 
 $(".testimonials-carousel").owlCarousel({

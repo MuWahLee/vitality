@@ -660,6 +660,7 @@ aside.cta-quote span.quote {
 
 .portfolio-carousel .item .portfolio-image {
     margin-top: 50px;
+    max-width: 70%;
 }
 
 .portfolio-carousel .item .project-details {
@@ -688,6 +689,7 @@ aside.cta-quote span.quote {
 
 .portfolio-carousel .owl-controls {
     margin-top: 0;
+    background-color: #f5f5f5;
 }
 
 .portfolio-carousel .owl-controls .owl-prev,
@@ -725,16 +727,16 @@ aside.cta-quote span.quote {
 @media(min-width:992px) {
     .portfolio-carousel .item {
         padding: 150px 55px;
-        text-align: left;
+        text-align: center;
     }
 
     .portfolio-carousel .item .portfolio-image {
         margin-top: 0;
-        padding-top: 14px;
+        padding-top: 145px;
     }
 
     .portfolio-carousel .item .project-details {
-        padding: 15% 0 0;
+        padding-top: 10px;
     }
 
     .portfolio-carousel .item .project-details img.client-logo {
@@ -753,7 +755,8 @@ aside.cta-quote span.quote {
     }
 
     .portfolio-carousel .item hr.colored {
-        margin: 20px auto 20px 0;
+        /*margin: 20px auto 20px 0;*/
+        text-align: center;
     }
 }
 
@@ -1188,6 +1191,21 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   margin: 10px 25px; 
 }
 
+#clients .company img.xsmall{
+  max-height:80px;
+  margin: 10px 25px; 
+}
+
+#clients .company img.small{
+  max-height:65px;
+  margin: 10px 25px; 
+}
+
+#clients .company img.large{
+  max-height:50px;
+  margin: 10px 25px; 
+}
+
 .project-details img{
   max-height:45px;
   margin: 10px 25px; 
@@ -1195,10 +1213,28 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 
 .portfolio-logo {
   max-height: 40%;
-  margin: 10px 25px 10px 250px; 
+  margin: 10px 25px 10px 25px; 
+  padding-top: 49px;
 }
 
 .stroke {
  color: #333;
  -webkit-text-stroke: 1px rgba(255,255,255,.7);
 }
+
+.portfolio-carousel .container-fluid .row{
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.intro-content a,
+.mfp-content a,
+.portfolio-carousel a {
+    color: #39f;
+}
+
+.portfolio-carousel a:hover,
+.portfolio-carousel a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
