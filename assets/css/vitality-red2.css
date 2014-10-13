@@ -253,6 +253,16 @@ header .intro-content {
     position: relative;
     text-align: center;
     color: #fff;
+    background-color: hsla(0, 0%, 0%, .3);
+    padding-top: 15%;
+    padding-left:15px;
+    padding-right: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+header .intro-content p {
+    font-size: 20px;
 }
 
 header .brand-name {
@@ -315,13 +325,14 @@ header .scroll-down .btn:hover {
         position: absolute;
         top: 50%;
         left: 50%;
-        width: 50%;
+        width: 100%;
         margin: auto;
         text-align: center;
         color: #fff;
         -webkit-transform: translate(-50%,-50%);
         -ms-transform: translate(-50%,-50%);
         transform: translate(-50%,-50%);
+        height: 100%;
     }
 
     header .brand-name {
@@ -970,7 +981,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer.footer {
-    padding: 50px 0 20px;
+    /*padding: 50px 0 20px;*/
     color: rgba(255,255,255,.7);
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -1223,18 +1234,31 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 }
 
 .portfolio-carousel .container-fluid .row{
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 0%, 0.3);
 }
 
 .intro-content a,
 .mfp-content a,
 .portfolio-carousel a {
-    color: #39f;
+    color: #fff;
 }
 
+.intro-content a:hover,
+.intro-content a:focus,
+.mfp-content a:hover,
+.mfp-content a:focus,
 .portfolio-carousel a:hover,
 .portfolio-carousel a:focus {
     text-decoration: none;
-    color: inherit;
+    color: #39f;
 }
 
+footer .text-center {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-color: hsla(0, 0%, 0%, .3);
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+}

@@ -47,7 +47,7 @@ $(".portfolio-carousel").owlCarousel({
     mouseDrag: false,
     touchDrag: false,
     transitionStyle: "fadeUp",
-    autoPlay: 20000,
+    autoPlay: 15000,
     slideSped: 300,
     paginationSpeed: 300,
     rewindSpeed: 100,
