@@ -52,7 +52,8 @@
 
 .mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
   width: 100%;
-  cursor: auto; }
+  cursor: auto; 
+}
 
 .mfp-ajax-cur {
   cursor: progress; }
@@ -377,4 +378,5 @@ img.mfp-img {
   max-width: 500px;
   margin: 20px auto;
   color: #fff;
+  font-weight: 100;
 }

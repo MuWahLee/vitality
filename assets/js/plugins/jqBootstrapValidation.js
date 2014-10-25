@@ -173,7 +173,7 @@
             //                                                    NUMBER
             // ---------------------------------------------------------
             if ($this.attr("type") !== undefined && $this.attr("type").toLowerCase() === "number") {
-              message = settings.builtInValidators.number.message;
+              message = "Must be a number<!-- data-validator-number-message to override -->";
               if ($this.data("validationNumberMessage")) {
                 message = $this.data("validationNumberMessage");
               }
@@ -813,6 +813,8 @@
 				name: "Number",
 				type: "regex",
 				regex: "([+-]?\\\d+(\\\.\\\d*)?([eE][+-]?[0-9]+)?)?",
+        // regex: "([+]?[0-9])?([(]?[0-9]*[)]?)?([0-9]*([\-]*)\s*)?[0-9]*([A-Za-z]*[0-9]*)?",
+        // "(/^\+\d{1,3})? ([\d\s\.\(\)-])* ([A-Za-z]*[0-9]*)?"
 				message: "Must be a number<!-- data-validator-number-message to override -->"
 			},
 			integer: {

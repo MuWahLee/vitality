@@ -48,6 +48,7 @@ $(".portfolio-carousel").owlCarousel({
     touchDrag: false,
     transitionStyle: "fadeUp",
     autoPlay: 15000,
+    autoPlay: false,    
     slideSped: 300,
     paginationSpeed: 300,
     rewindSpeed: 100,

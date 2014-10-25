@@ -175,8 +175,8 @@ body:after {
 
 .lb-data .lb-caption {
   font-size: 15px;
-/*  font-weight: bold;
-*/  line-height: 1em;
+  font-weight: 100;
+  line-height: 1em;
 }
 
 .lb-data .lb-number {
