@@ -129,3 +129,11 @@ $('.team-popup-link').magnificPopup({
     enabled: true
   },
 });
+
+
+// hides the collapsed menu when click on a menu item //
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
