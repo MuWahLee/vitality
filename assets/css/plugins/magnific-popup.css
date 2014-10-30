@@ -296,6 +296,22 @@ img.mfp-img {
 .mfp-gallery .mfp-image-holder .mfp-figure {
   cursor: pointer; }
 
+
+
+ /* popup css for Services section */
+.white-popup {
+  position: relative;
+  background: inherit;
+  padding: 20px;
+  width:auto;
+  max-width: 550px;
+  margin: 20px auto;
+  color: #fff;
+  font-weight: 100;
+  overflow-y: auto;
+}
+ 
+
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
   /**
        * Remove all paddings around the image on small screen
@@ -335,7 +351,13 @@ img.mfp-img {
     background: rgba(0, 0, 0, 0.6);
     position: fixed;
     text-align: center;
-    padding: 0; } }
+    padding: 0; } 
+  .white-popup{
+    padding-top: 200px; }
+  .mfp-close {
+    margin-top: 155px; } 
+
+  }
 
 @media all and (max-width: 900px) {
   .mfp-arrow {
@@ -349,7 +371,55 @@ img.mfp-img {
     transform-origin: 100%; }
   .mfp-container {
     padding-left: 6px;
-    padding-right: 6px; } }
+    padding-right: 6px; } 
+  .white-popup {
+    padding-top: 80px; 
+    padding-left: 37px;
+    padding-right: 37px; } 
+  .mfp-close {
+    margin-top: 45px; }
+/*  .mfp-arrow {
+    margin-top: 40px; }
+  .mfp-arrow:active {
+    margin-top: 40px; }*/
+  }
+
+@media screen and (max-width: 800px) and (orientation: landscape){
+    .mfp-arrow {
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75); }
+  .mfp-arrow-left {
+    -webkit-transform-origin: 0;
+    transform-origin: 0; }
+  .mfp-arrow-right {
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%; }
+  .mfp-container {
+    padding-left: 6px;
+    padding-right: 6px; } 
+  .white-popup {
+    padding-top: 200px; 
+    padding-left: 37px;
+    padding-right: 37px; } 
+  .mfp-close {
+    margin-top: 155px; }
+  .mfp-arrow {
+    margin-top: 40px; }
+  .mfp-arrow:active {
+    margin-top: 40px; }
+}
+
+@media screen and (max-width: 700px) and (orientation: landscape) {
+  .white-popup {
+    padding-top: 30px; }
+  .mfp-close {
+    margin-top: 5px; }
+  .mfp-arrow {
+    margin-top: 15px; }
+  .mfp-arrow:active {
+    margin-top: 15px; }
+}
+
 
 .mfp-ie7 .mfp-img {
   padding: 0; }
@@ -369,14 +439,3 @@ img.mfp-img {
   padding-top: 0; }
 
 
-/* popup css for core services */
-  .white-popup {
-  position: relative;
-  background: inherit;
-  padding: 20px;
-  width:auto;
-  max-width: 500px;
-  margin: 20px auto;
-  color: #fff;
-  font-weight: 100;
-}

@@ -1,13 +1,13 @@
-// Smooth Scrolling: Smooth scrolls to an ID on the current page.
-$(function() {
-    $('a').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
-});
+// Smooth Scrolling: Smooth scrolls to an ID on the current page. Commented out as the background moves up when clicking on a Magnific Popup Service item.
+// $(function() {
+//     $('a').bind('click', function(event) {
+//         var $anchor = $(this);
+//         $('html, body').stop().animate({
+//             scrollTop: $($anchor.attr('href')).offset().top
+//         }, 1500, 'easeInOutExpo');
+//         event.preventDefault();
+//     });
+// });
 
 // Activates floating label headings for the contact form.
 $(function() {
@@ -44,11 +44,11 @@ $(".portfolio-carousel").owlCarousel({
         "<i class='fa fa-angle-right'></i>"
     ],
     autoHeight: true,
-    mouseDrag: false,
+    mouseDrag: true,
     touchDrag: false,
     transitionStyle: "fadeUp",
     autoPlay: 15000,
-    autoPlay: false,    
+    autoPlay: true,    
     slideSped: 300,
     paginationSpeed: 300,
     rewindSpeed: 100,
@@ -111,7 +111,7 @@ $('body').scrollspy({
 })
 
 
-// core services popup //
+// Services section popup //
 $('.open-popup-link').magnificPopup({
   type:'inline',
   midClick: true, // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
@@ -121,7 +121,7 @@ $('.open-popup-link').magnificPopup({
 });
 
 
-// team popup //
+// Team section popup //
 $('.team-popup-link').magnificPopup({
   type:'inline',
   midClick: true, // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.

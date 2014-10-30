@@ -43,9 +43,9 @@ body {
 
 a {
     color: #004588;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
 }
 
 a:hover,
@@ -72,12 +72,13 @@ h3,
 h4,
 h5,
 h6 {
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
 }
-.uppercase {
-    text-transform: uppercase; 
+
+.capitalize {
+    text-transform: capitalize; 
 }
 
 @media(min-width:481px) {
@@ -228,6 +229,7 @@ hr.colored {
     }
 }
 
+
 .navbar a:focus {
     outline: 0;
 }
@@ -235,6 +237,7 @@ hr.colored {
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
+
 
 header {
     display: block;
@@ -531,6 +534,14 @@ aside.cta-quote span.quote {
 
 .about-content {
     padding: 30px;
+}
+
+.about-content .fa {
+    color: #004588;
+}
+
+.about-content p {
+    text-align: justify;
 }
 
 .about-carousel .item {
