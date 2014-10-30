@@ -546,7 +546,7 @@ aside.cta-quote span.quote {
 
 .about-carousel .item {
     padding: 15px;
-    min-height: 385px;
+    min-height: 350px;
 }
 
 .about-carousel img {
@@ -643,10 +643,14 @@ aside.cta-quote span.quote {
     right: 2px;
 }
 
+.services .col-md-4 {
+    margin-bottom: 47px;
+}
+
 .services .media {
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #005488;
+    color: #004588;
 }
 
 .services .media i.fa {
@@ -691,11 +695,12 @@ aside.cta-quote span.quote {
     color: #39f;
 }
 
-/*@media(min-width:992px) {
-    .services .media {
-        margin-bottom: 0;
+@media(min-width: 992px) and (max-width: 1199px) {
+    .services .media-body-big {
+    margin-top: 15px;
+    margin-bottom: 7px;
     }
-}*/
+}
 
 
 #clients .company {

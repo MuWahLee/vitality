@@ -1,13 +1,42 @@
-// Smooth Scrolling: Smooth scrolls to an ID on the current page. Commented out as the background moves up when clicking on a Magnific Popup Service item.
-// $(function() {
-//     $('a').bind('click', function(event) {
-//         var $anchor = $(this);
-//         $('html, body').stop().animate({
-//             scrollTop: $($anchor.attr('href')).offset().top
-//         }, 1500, 'easeInOutExpo');
-//         event.preventDefault();
-//     });
-// });
+
+// Smooth Scrolling: Smooth scrolls to an ID on the current page. Must have Class = Scroll-link to work.
+// Otherwise, Services section will scroll up on each click event to open up magnific popup.
+$(document).ready(function() {
+    // navigation click actions 
+    $('.scroll-link').on('click', function(event){
+        event.preventDefault();
+        var sectionID = $(this).attr("data-id");
+        scrollToID('#' + sectionID, 750);
+    });
+    // scroll to top action
+    $('.scroll-top').on('click', function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop:0}, 'slow');         
+    });
+    // mobile nav toggle
+    $('#nav-toggle').on('click', function (event) {
+        event.preventDefault();
+        $('#main-nav').toggleClass("open");
+    });
+});
+// scroll function
+function scrollToID(id, speed){
+    var offSet = 50;
+    var targetOffset = $(id).offset().top;
+    var mainNav = $('#main-nav');
+    $('html,body').animate({scrollTop:targetOffset}, speed);
+    if (mainNav.hasClass("open")) {
+        mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+        mainNav.removeClass("open");
+    }
+}
+if (typeof console === "undefined") {
+    console = {
+        log: function() { }
+    };
+}
+
+
 
 // Activates floating label headings for the contact form.
 $(function() {
@@ -47,7 +76,7 @@ $(".portfolio-carousel").owlCarousel({
     mouseDrag: true,
     touchDrag: false,
     transitionStyle: "fadeUp",
-    autoPlay: 15000,
+    autoPlay: 17000,
     autoPlay: true,    
     slideSped: 300,
     paginationSpeed: 300,
@@ -121,14 +150,14 @@ $('.open-popup-link').magnificPopup({
 });
 
 
-// Team section popup //
-$('.team-popup-link').magnificPopup({
-  type:'inline',
-  midClick: true, // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-  gallery: {
-    enabled: true
-  },
-});
+// Team section popup. Not required - using Lightbox instead//
+// $('.team-popup-link').magnificPopup({
+//   type:'inline',
+//   midClick: true, // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+//   gallery: {
+//     enabled: true
+//   },
+// });
 
 
 // hides the collapsed menu when click on a menu item //
