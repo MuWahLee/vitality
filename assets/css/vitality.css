@@ -564,11 +564,8 @@ aside.cta-quote a:focus {
     top: 50%;
     left: 50%;
     max-width: 300px;
-    /*margin: auto;*/
     margin: 75px 0 auto 0;
-/*    margin-top: 70px;*/
     padding: 15px;
-/*    color: rgba(255,255,255,.7);*/
     color: #004588;
     font-weight: 400;
     -webkit-transform: translate(-50%,-50%);
@@ -581,7 +578,6 @@ aside.cta-quote a:focus {
 }
 
 .about-carousel .item .caption a {
-/*    color: rgba(255, 255, 255, 1);*/
     color: #004588;
 }
 
@@ -650,7 +646,7 @@ aside.cta-quote a:focus {
 }
 
 .services .col-md-4 {
-    margin-bottom: 47px;
+    margin-bottom: 50px;
 }
 
 .services .media {
@@ -662,7 +658,7 @@ aside.cta-quote a:focus {
 .services .media i.fa {
     width: 75px;
     height: 75px;
-    border: 2px solid #222;
+    border: 3px solid #222;
     border-radius: 100%;
     text-align: center;
     font-size: 30px;
@@ -684,7 +680,6 @@ aside.cta-quote a:focus {
 .services .media .media-body h3 {
     margin-bottom: 15px;
     min-height: 75px;
-    font-size: 22px;
 }
 
 .services .media .media-body ul {
@@ -698,6 +693,7 @@ aside.cta-quote a:focus {
 
 .services .media .media-body a {
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
 }
 
 .services .media .media-body a:hover, 
@@ -708,7 +704,7 @@ aside.cta-quote a:focus {
 @media(min-width: 992px) and (max-width: 1199px) {
     .services .media-body-big {
     margin-top: 15px;
-    margin-bottom: 4px;
+    margin-bottom: 7px;
     }
 }
 
@@ -799,7 +795,6 @@ aside.cta-quote a:focus {
 .portfolio-logo-xiyan {
   max-height: 220px;
   margin: 10px 25px 20px 25px; 
-  /*padding-top: 49px;*/
 }
 
 .portfolio-logo-fiji {
@@ -810,7 +805,6 @@ aside.cta-quote a:focus {
 .portfolio-logo-fitbit {
   max-width: 40%;
   margin: 50px 25px 50px 25px; 
-  /*padding-top: 49px;*/
 }
 
 .stroke {
@@ -896,7 +890,6 @@ aside.cta-quote a:focus {
     }
 
     .portfolio-carousel .item hr.colored {
-        /*margin: 20px auto 20px 0;*/
         text-align: center;
     }
 
@@ -904,7 +897,6 @@ aside.cta-quote a:focus {
     .portfolio-logo-xiyan {
       max-height: 250px;
       margin: 50px 25px 15px 25px; 
-      /*padding-top: 49px;*/
     }
 
     .portfolio-logo-fiji {
@@ -919,166 +911,10 @@ aside.cta-quote a:focus {
 }
 
 
-/* @media(min-width:481px){
-    .portfolio-carousel .item {
-        padding: 150px 55px;
-        text-align: center;
-        min-height: 1150px;
-    }
- }*/
-
 .portfolio-gallery .item {
     padding: 15px;
 }
 
-.portfolio-modal {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
-    text-align: center;
-    color: #fff;
-    background: 0 0;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.portfolio-modal .modal-content h2 {
-    margin: 0;
-    font-size: 46px;
-}
-
-.portfolio-modal .modal-content img {
-    margin: 30px auto;
-}
-
-.portfolio-modal .modal-content .item-details {
-    margin: 30px 0;
-}
-
-.portfolio-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.portfolio-modal .close-modal:hover {
-    opacity: .3;
-}
-
-.portfolio-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #fff;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.portfolio-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #fff;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-/*.pricing {
-    color: #fff;
-    background: no-repeat center center scroll;
-    background-color: #222;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.pricing .pricing-item {
-    z-index: 1;
-    margin-bottom: 30px;
-    padding: 30px;
-    text-align: center;
-    color: #222;
-    background: #fff;
-    -webkit-box-shadow: 0 0 30px 5px rgba(34,34,34,.75);
-    -moz-box-shadow: 0 0 30px 5px rgba(34,34,34,.75);
-    box-shadow: 0 0 30px 5px rgba(34,34,34,.75);
-}
-
-.pricing .pricing-item h3 {
-    margin: 0;
-}
-
-.pricing .pricing-item hr {
-    max-width: 100px;
-}
-
-.pricing .pricing-item .price {
-    margin-bottom: 20px;
-}
-
-.pricing .pricing-item .price .number {
-    font-size: 50px;
-    font-weight: 900;
-}
-
-.pricing .pricing-item .price .number sup {
-    font-size: 30px;
-}
-
-.pricing .pricing-item .list-group-item {
-    border-radius: 0;
-}
-
-@media(min-width:992px) {
-    .pricing {
-        background-attachment: scroll;
-    }
-
-    .pricing .pricing-item {
-        margin-bottom: 0;
-    }
-
-    .pricing .pricing-item.featured-first {
-        margin-top: 15px;
-        margin-right: -15px;
-    }
-
-    .pricing .pricing-item.featured {
-        position: absolute;
-        left: 0;
-        width: 100%;
-        margin: 0;
-        padding: 45px 30px;
-    }
-
-    .pricing .pricing-item.featured-last {
-        margin-top: 15px;
-        margin-left: -15px;
-    }
-}*/
-
-@media(min-width:1025px) {
-    .pricing {
-        background-attachment: fixed;
-    }
-}
 
 .floating-label-form-group {
     position: relative;
@@ -1147,13 +983,15 @@ footer.footer {
 }
 
 footer.footer a {
-/*    color: rgba(255,255,255,.7);*/
     color: #fff;
 }
 
 footer.footer a:hover {
-/*    color: #fff;*/
     color: #004588;
+}
+
+footer.footer a.scroll:hover{
+    color: #39f;
 }
 
 footer.footer p {
@@ -1301,63 +1139,12 @@ body.modern .testimonials .testimonials-carousel .owl-controls .owl-next {
     line-height: 55px;
 }
 
-/*body.vintage {
-    font-family: Cardo,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-}
 
-body.vintage h1,
-body.vintage h2,
-body.vintage h3,
-body.vintage h4,
-body.vintage h5,
-body.vintage h6 {
-    text-transform: uppercase;
-    font-family: Sanchez,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-}
-
-body.vintage p.lead {
-    text-transform: uppercase;
-    font-family: Sanchez,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-}
-
-body.vintage header .brand-name {
-    text-transform: uppercase;
-    font-family: Sanchez,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-}
-
-body.vintage .about-carousel .owl-controls .owl-prev,
-body.vintage .about-carousel .owl-controls .owl-next {
-    line-height: 55px;
-}
-
-body.vintage .portfolio-carousel .item .project-details .project-name {
-    text-transform: uppercase;
-    font-family: Sanchez,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-}
-
-body.vintage .testimonials .testimonials-carousel .item .testimonial-info .testimonial-author .name {
-    text-transform: uppercase;
-    font-family: Sanchez,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-}
-
-body.vintage .testimonials .testimonials-carousel .owl-controls .owl-prev,
-body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
-    line-height: 55px;
-}*/
-
+/* additional code from here onwards*/
 
 .daylight_logo {
     height: 53px;
 }
-
-
-
 
 
 .intro-content a,
@@ -1380,10 +1167,6 @@ footer .text-center {
     position: relative;
     text-align: center;
     color: #fff;
-/*    background-color: hsla(0, 0%, 0%, .1);
-    margin-top: 20px;
-    height: 100%;
-    width: 100%;*/
 }
 
 
