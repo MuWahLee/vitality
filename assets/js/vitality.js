@@ -49,6 +49,7 @@ $(function() {
     });
 });
 
+
 // Owl Carousel Settings
 $(".about-carousel").owlCarousel({
     items: 3,
@@ -76,8 +77,7 @@ $(".portfolio-carousel").owlCarousel({
     mouseDrag: true,
     touchDrag: false,
     transitionStyle: "fadeUp",
-    autoPlay: 17000,
-    autoPlay: true,    
+    autoPlay: 15000,   
     slideSped: 300,
     paginationSpeed: 300,
     rewindSpeed: 100,
@@ -100,6 +100,7 @@ $(".portfolio-gallery").owlCarousel({
     items: 3,
 });
 
+
 // Magnific Popup jQuery Lightbox Gallery Settings
 $('.gallery-link').magnificPopup({
     type: 'image',
@@ -111,6 +112,7 @@ $('.gallery-link').magnificPopup({
     }
 });
 
+
 // Formstone Wallpaper - Video Background Settings
 $("header.video").wallpaper({
     source: {
@@ -118,6 +120,7 @@ $("header.video").wallpaper({
         mp4: "assets/mp4/camera.mp4"
     }
 });
+
 
 // Fix for Bootstrap Modal Shifting Page Contents
 $(window).on("load resize",function(e){
@@ -133,6 +136,7 @@ $(window).on("load resize",function(e){
         });
     })(jQuery);
 });
+
 
 // Scrollspy: Highlights the navigation menu items while scrolling.
 $('body').scrollspy({

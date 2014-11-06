@@ -405,6 +405,12 @@ aside.cta-quote span.quote {
     line-height: 32px;
 }
 
+aside.cta-quote a:hover,
+aside.cta-quote a:focus {
+    color: #39f;
+}
+
+
 @media(min-width:768px) {
     aside.cta-quote {
         padding: 150px 0;
@@ -690,6 +696,10 @@ aside.cta-quote span.quote {
     margin-bottom: 10px;
 }
 
+.services .media .media-body a {
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .services .media .media-body a:hover, 
 .services .media .media-body a:focus {
     color: #39f;
@@ -698,7 +708,7 @@ aside.cta-quote span.quote {
 @media(min-width: 992px) and (max-width: 1199px) {
     .services .media-body-big {
     margin-top: 15px;
-    margin-bottom: 7px;
+    margin-bottom: 4px;
     }
 }
 
